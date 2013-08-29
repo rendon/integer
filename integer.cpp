@@ -723,7 +723,7 @@ int Integer::compare(const Integer& a, const Integer& b) const
 
 // Returns true if the string is a valid representation
 // of a integer number. I employ a simple automata for
-// it where final state is 3.
+// it where the final state is 3.
 bool Integer::validate(const char *num)
 {
     int size = strlen(num);

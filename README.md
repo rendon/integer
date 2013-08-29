@@ -13,6 +13,12 @@ Operations supported
     - multiplication: `*` operator
     - division: `/` operator
     - modulo: `%` operator
+    - exponentiation
+    - modular exponentiation
+    - gcd()
+    - lcm()
+    - bit shifting: operators <<, >>
+    - Some others.
 
 Tests
 =====
@@ -21,7 +27,7 @@ In `test.cpp` there are some tests for each operatio that I've prepared using Un
 
 NOTES
 =====
-
     - The number base used is 10
     - I've realized that base 10 wasn't the more appropiate since many operations are easier and faster using base 2: http://stackoverflow.com/questions/7212554/what-base-would-be-more-appropriate-for-my-biginteger-library
     - You can find a clean implementation (I think) of Karatsuba algorithm for multiplications
+    - The `is_probable_prime()` method is still in experimentation.
