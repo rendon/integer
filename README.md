@@ -17,7 +17,7 @@ Operations supported
 - modular exponentiation
 - gcd()
 - lcm()
-- bit shifting: operators <<, >>
+- bit shifting: operators `<<`, `>>`  
 - Some others.
 
 Tests
