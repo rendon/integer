@@ -1,0 +1,6 @@
+integer
+tests/test_*
+*~
+*.swp
+*.o
+
