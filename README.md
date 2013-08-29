@@ -8,26 +8,26 @@ My implementation is slow but I've tried to make the code as understandable as p
 
 Operations supported
 ====================
-    - addition: `+` operator
-    - subtraction: `-` operator
-    - multiplication: `*` operator
-    - division: `/` operator
-    - modulo: `%` operator
-    - exponentiation
-    - modular exponentiation
-    - gcd()
-    - lcm()
-    - bit shifting: operators <<, >>
-    - Some others.
+- addition: `+` operator
+- subtraction: `-` operator
+- multiplication: `*` operator
+- division: `/` operator
+- modulo: `%` operator
+- exponentiation
+- modular exponentiation
+- gcd()
+- lcm()
+- bit shifting: operators <<, >>
+- Some others.
 
 Tests
 =====
-In `test.cpp` there are some tests for each operatio that I've prepared using UnitTest++. Also, there is a test generator written in Ruby and a small bash script to automate the tests.
+In `test.cpp` there are some tests for each operation that I've prepared using UnitTest++. Also, there is a test generator written in Ruby and a small bash script to automate the tests.
 
 
 NOTES
 =====
-    - The number base used is 10
-    - I've realized that base 10 wasn't the more appropiate since many operations are easier and faster using base 2: http://stackoverflow.com/questions/7212554/what-base-would-be-more-appropriate-for-my-biginteger-library
-    - You can find a clean implementation (I think) of Karatsuba algorithm for multiplications
-    - The `is_probable_prime()` method is still in experimentation.
+- The number base used is 10
+- I've realized that base 10 wasn't the more appropiate since many operations are easier and faster using base 2: http://stackoverflow.com/questions/7212554/what-base-would-be-more-appropriate-for-my-biginteger-library
+- You can find a clean implementation (I think) of Karatsuba algorithm for multiplications
+- The `is_probable_prime()` method is still in experimentation.
