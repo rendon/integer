@@ -570,8 +570,6 @@ bool Integer::even() const
 // Returns a / b.
 Integer Integer::divide(Integer& a, Integer& b) const
 {
-
-
     Integer q, row;
     int asign = a.sign();
     int bsign = b.sign();
